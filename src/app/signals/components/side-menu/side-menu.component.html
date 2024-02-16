@@ -1,9 +1,15 @@
 <ul class="list-group">
     <li
-        *ngFor="let item of menuItems"
+        *ngFor="let item of menuItems()"
         class="list-group-item"
         [routerLink]="[item.router]"
         routerLinkActive="active">
         {{ item.title }}
     </li>
 </ul>
+
+<!-- Referencia a la senial -->
+<!-- {{ menuItems() }} -->
+
+<!-- Referencia al valor de la senial -->
+<!-- {{ menuItems() }} -->
