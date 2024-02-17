@@ -44,7 +44,7 @@ export class UserInfoPageComponent implements OnInit {
           this.userWasFound.set(false);
           this.currentUser.set(undefined);
         }
-      })
+      });
   }
 
 }
